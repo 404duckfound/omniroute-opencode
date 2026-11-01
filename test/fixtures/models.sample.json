@@ -1,0 +1,16 @@
+[
+  { "id": "chat/basic", "type": "chat", "name": "Basic Chat", "family": "basic", "context_length": 8192, "max_input_tokens": 6000, "max_output_tokens": 2048, "capabilities": { "tool_calling": true, "temperature": true }, "input_modalities": ["text"], "output_modalities": ["text"], "pricing": { "input": 1, "output": 2, "cached": 0.5, "cache_creation": 1.25 }, "release_date": "2026-01-01" },
+  { "id": "codex/luna", "type": "chat", "api_format": "responses", "name": "Codex Luna", "family": "codex", "context_length": 128000, "max_output_tokens": 16000, "capabilities": { "tool_calling": true }, "input_modalities": ["text"], "output_modalities": ["text"] },
+  { "id": "chat/nooutput", "type": "chat", "context_length": 4096, "max_input_tokens": 4096, "capabilities": {}, "input_modalities": ["text"], "output_modalities": ["text"] },
+  { "id": "chat/bigout", "type": "chat", "context_length": 1000, "max_input_tokens": 1000, "max_output_tokens": 5000, "capabilities": {}, "input_modalities": ["text"], "output_modalities": ["text"] },
+  { "id": "chat/smallin", "type": "chat", "context_length": 8192, "max_input_tokens": 4096, "capabilities": {}, "input_modalities": ["text"], "output_modalities": ["text"] },
+  { "id": "img/model", "type": "image" },
+  { "id": "emb/model", "type": "embedding" },
+  { "id": "audio/model", "type": "audio" },
+  { "id": "video/model", "type": "video" },
+  { "id": "rerank/model", "type": "rerank" },
+  { "id": "dep/model", "type": "chat", "status": "deprecated", "context_length": 1000 },
+  { "id": "noctx/model", "type": "chat" },
+  { "id": "untyped", "name": "Untyped", "context_length": 2048 },
+  { "id": "priceless", "type": "chat", "context_length": 2048, "max_input_tokens": 2048 }
+]

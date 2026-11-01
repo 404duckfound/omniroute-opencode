@@ -1,0 +1,32 @@
+{
+  "name": "omniroute-opencode",
+  "version": "0.1.0",
+  "description": "OpenCode V2 plugin for OmniRoute AI Gateway dynamic model discovery",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "omniroute",
+    "ai-gateway",
+    "provider"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@opencode/plugin": "2.2.5"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "bun-types": "latest"
+  },
+  "scripts": {
+    "test": "bun test",
+    "typecheck": "tsc --noEmit"
+  }
+}
