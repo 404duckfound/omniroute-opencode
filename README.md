@@ -61,7 +61,7 @@ Options can be passed when registering the plugin as an object in `opencode.json
 {
   "plugins": [
     {
-      "package": "/path/to/omniroute-opencode",
+      "package": "omniroute-opencode",
       "options": {
         "baseURL": "http://localhost:20128/v1",
         "refreshIntervalMs": 300000
